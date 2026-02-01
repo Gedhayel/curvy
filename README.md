@@ -1,1 +1,97 @@
-# curvy
+<!DOCTYPE html>
+ <html>
+ <body>
+<title>CURVYPERFECT</title>    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><center>CURVYPERFECT</center></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ff004483; /* Gris claro */
+            color: #f9045282; /* Negro */
+        }
+        header {
+            background-color: #ff00ea44; /* Azul */
+            color: rgba(240, 4, 240, 0.179);
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: rgba(125, 48, 48, 0.571);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .contacto {
+            background-color: #c9b80650; /* Rojo claro */
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #09427075;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4d1e1e; /* azul */
+            color: rgba(255, 0, 0, 0.434);
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #e5ec06a0;
+            color: rgba(82, 6, 6, 0.348);
+            text-align: center;
+            padding: 10px;
+        }
+        .redes a {
+            color: rgba(12, 15, 230, 0.407);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURVYPERFECT5</h1>
+        <nav>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="contacto" class="contacto">
+        <h2>Envíame un Mensaje</h2>
+        <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en redes sociales</p>
+        <div class="redes">
+            <a href="https://w.app/malmp7" target="_blank">WhatsApp</a>
+            <a href="https://www.tiktok.com/@curvyperfect5?_r=1&_t=ZS-93YfbQiIFs8" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com/curvy.perfec5" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/valetina espinoza" target="_blank">Facebook</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
